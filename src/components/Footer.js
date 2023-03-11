@@ -5,17 +5,17 @@ import { Github, Twitter, Linkedin } from "react-bootstrap-icons";
 
 function Footer() {
   return (
-    <Navbar bg="light" variant="danger" className="fixed-bottom">
+    <Navbar className="fixed-bottom py-3">
       <Container className="justify-content-center" fluid>
         <Nav>
           <Nav.Link href="https://twitter.com/captaiiinsolo" target="_blank">
-            <Twitter></Twitter>
+            <Twitter className="text-danger" size={25}></Twitter>
           </Nav.Link>
           <Nav.Link href="https://github.com/captaiiinsolo" target="_blank">
-            <Github></Github>
+            <Github className="text-danger" size={25}></Github>
           </Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/solomon-santos/" target="_blank">
-            <Linkedin></Linkedin>
+            <Linkedin className="text-danger" size={25}></Linkedin>
           </Nav.Link>
         </Nav>
       </Container>
