@@ -5,7 +5,7 @@ import { Github, Twitter, Linkedin } from "react-bootstrap-icons";
 
 function Footer() {
   return (
-    <Navbar bg="light" variant="light" className="fixed-bottom">
+    <Navbar bg="light" variant="danger" className="fixed-bottom">
       <Container className="justify-content-center" fluid>
         <Nav>
           <Nav.Link href="https://twitter.com/captaiiinsolo" target="_blank">
