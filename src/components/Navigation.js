@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <Navbar bg="primary" variant="dark" sticky="top" className="py-3">
+    <Navbar bg="dark" variant="dark" sticky="top" className="py-4">
       <Container fluid>
         <Navbar.Brand className="justify-content-between">
           Solomon Santos | Full Stack Web Developer
