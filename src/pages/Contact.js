@@ -1,15 +1,19 @@
-import React from 'react';
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
+
 
 const Contact = () => {
-    return (
-        <div className="Home">
-            <Header></Header>
+  return (
+    <div className="Contact">
+      <Header></Header>
 
-            <Footer></Footer>
-        </div>
-    )
-}
+      <ContactForm></ContactForm>
+
+      <Footer></Footer>
+    </div>
+  );
+};
 
 export default Contact;
