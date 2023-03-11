@@ -17,9 +17,6 @@ function Navigation() {
           <Nav.Link as={Link} to="/projects" className="text-light">
             Projects
           </Nav.Link>
-          <Nav.Link as={Link} to="/about" className="text-light">
-            About
-          </Nav.Link>
           <Nav.Link as={Link} to="/contact" className="text-light">
             Contact
           </Nav.Link>
