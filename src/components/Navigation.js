@@ -4,7 +4,7 @@ import Navbar from'react-bootstrap/Navbar';
 
 function Navigation() {
     return (
-        <Navbar bg="light" variant="light" sticky='top'>
+        <Navbar bg="primary" variant="dark" sticky='top' className='py-3'>
             <Container fluid>
                 <Navbar.Brand className='justify-content-between'>Solomon Santos | Full Stack Developer</Navbar.Brand>
                 <Nav>
